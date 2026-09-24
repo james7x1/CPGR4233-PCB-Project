@@ -4806,12 +4806,6 @@
 		(uuid "106abdbc-a216-43b3-9cb5-853c5cd8551f")
 	)
 	(junction
-		(at 90.17 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12d68e90-0790-4dfb-91dd-aaea780dafb4")
-	)
-	(junction
 		(at 198.12 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4834,6 +4828,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22d98701-e0f3-47dc-853c-f74402b4dba0")
+	)
+	(junction
+		(at 99.06 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248ea0e4-d50c-49a4-be10-2ecf8df53719")
+	)
+	(junction
+		(at 99.06 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27d865c7-a681-4a8c-84e6-5bea0aefedc5")
 	)
 	(junction
 		(at 267.97 116.84)
@@ -4872,12 +4878,6 @@
 		(uuid "37612698-106c-4fe4-a9c3-b4664c80165f")
 	)
 	(junction
-		(at 90.17 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3da7a5d1-fec1-4f15-921b-ac4f6d6f8eef")
-	)
-	(junction
 		(at 234.95 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4900,6 +4900,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c3f3deb-5996-4b55-91b4-9c3c90652564")
+	)
+	(junction
+		(at 99.06 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e9dbbe9-524f-4899-9cf2-9e50ae34f3d9")
+	)
+	(junction
+		(at 116.84 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ed18c26-f47b-4d2d-8a31-e6784415f053")
 	)
 	(junction
 		(at 31.75 172.72)
@@ -4950,10 +4962,22 @@
 		(uuid "5ef372f2-f9cb-438e-8e0e-af32bee1ca2e")
 	)
 	(junction
+		(at 127 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fbcf46f-78e6-452b-ac83-9a8c8f94f50f")
+	)
+	(junction
 		(at 267.97 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6678f501-1319-4228-89e1-be5b34a00f75")
+	)
+	(junction
+		(at 99.06 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69ef3a8a-a214-4cf5-ad47-a89547a742a5")
 	)
 	(junction
 		(at 262.89 63.5)
@@ -4974,10 +4998,10 @@
 		(uuid "6e31401d-da30-4b37-b976-71f6057f3424")
 	)
 	(junction
-		(at 90.17 40.64)
+		(at 99.06 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75c7e557-e0c2-491c-9cb1-8372a5df5ddc")
+		(uuid "783cdb9d-fa29-46b6-9f13-23ace00ba4b1")
 	)
 	(junction
 		(at 124.46 125.73)
@@ -4992,6 +5016,12 @@
 		(uuid "7c073273-2fce-46e0-b34c-a63aeb7f9bf9")
 	)
 	(junction
+		(at 124.46 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85148899-5cdd-4d0c-aa45-a61fb0de1b0b")
+	)
+	(junction
 		(at 31.75 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5004,16 +5034,28 @@
 		(uuid "88f105bb-486c-474d-8a65-11eb21842bc0")
 	)
 	(junction
+		(at 132.08 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8baf5fc7-2888-4d55-b26d-cd6c4de109f0")
+	)
+	(junction
 		(at 156.21 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3dd19b-60b0-4243-b614-56c98f950331")
 	)
 	(junction
-		(at 90.17 38.1)
+		(at 129.54 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1fa03a2-3ab9-43ab-bcbd-ec3ed145de38")
+		(uuid "b4da59d5-9815-49f8-9f92-25f575215e79")
+	)
+	(junction
+		(at 121.92 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b74dcc9b-ee52-4335-b906-33d2438fed1a")
 	)
 	(junction
 		(at 203.2 24.13)
@@ -5058,12 +5100,6 @@
 		(uuid "d7e9dc77-3c88-4471-9753-4e61ba7fb634")
 	)
 	(junction
-		(at 90.17 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8371823-3811-4034-a9e5-a29a5499d38b")
-	)
-	(junction
 		(at 196.85 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5082,16 +5118,16 @@
 		(uuid "e2336310-5fed-4e5a-bf45-a69c7c397cff")
 	)
 	(junction
-		(at 90.17 43.18)
+		(at 119.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4393583-835f-4ca3-8c20-4778aac1cdbb")
+		(uuid "e58df46d-7db8-4f1d-950c-3555cd47645b")
 	)
 	(junction
-		(at 90.17 35.56)
+		(at 99.06 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e92f49f7-237d-4105-9e0b-22bb9c32e5fb")
+		(uuid "ea76d1f8-5ab0-4da2-92c9-0a90ae9a8366")
 	)
 	(junction
 		(at 151.13 121.92)
@@ -5104,6 +5140,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee157472-64d9-459e-97d8-a234afbcd370")
+	)
+	(junction
+		(at 99.06 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb995cb-db48-4647-a548-372ccc14ed65")
 	)
 	(junction
 		(at 30.48 125.73)
@@ -5148,12 +5190,184 @@
 		(uuid "fe1418b0-d132-4b01-a35e-f5d690c9ca7b")
 	)
 	(no_connect
+		(at 171.45 88.9)
+		(uuid "0c1ac791-44cc-47cc-a32d-a5b97c119584")
+	)
+	(no_connect
+		(at 234.95 139.7)
+		(uuid "1cfd3148-4283-4e32-8960-08e6068dd30d")
+	)
+	(no_connect
+		(at 186.69 139.7)
+		(uuid "26796538-78a3-4c17-a4ac-006f6b9aa4c0")
+	)
+	(no_connect
+		(at 191.77 139.7)
+		(uuid "2c0c1d41-79b5-4a92-99b7-7a1064f4a132")
+	)
+	(no_connect
+		(at 209.55 139.7)
+		(uuid "2e2df2c6-45b7-478f-bb54-49e842b7a102")
+	)
+	(no_connect
+		(at 217.17 38.1)
+		(uuid "3ac51de2-2854-446c-a1cb-f4083458c873")
+	)
+	(no_connect
+		(at 219.71 139.7)
+		(uuid "3b4f9a6f-5c17-48b2-926b-39b11a2d3cec")
+	)
+	(no_connect
+		(at 212.09 139.7)
+		(uuid "4990d2e2-ebd0-4b10-bcc5-ca97b595117c")
+	)
+	(no_connect
+		(at 181.61 139.7)
+		(uuid "4e6944c8-5736-4d37-b83c-ba5701d3e869")
+	)
+	(no_connect
+		(at 171.45 81.28)
+		(uuid "5d6381be-5dce-4af5-a834-a2a0ba43b8f6")
+	)
+	(no_connect
+		(at 171.45 116.84)
+		(uuid "5ebd8b2e-2478-40b6-bbd0-268ebaf07195")
+	)
+	(no_connect
+		(at 247.65 68.58)
+		(uuid "5f1900ba-1ea0-4c88-ac07-55e9921cc154")
+	)
+	(no_connect
+		(at 222.25 38.1)
+		(uuid "68cff266-dc09-4260-9dbb-87e0e9a9eb65")
+	)
+	(no_connect
+		(at 247.65 60.96)
+		(uuid "692f4ad8-9c6e-4283-b584-a78407ed612c")
+	)
+	(no_connect
+		(at 247.65 111.76)
+		(uuid "6a96992a-ef73-468d-8451-8333710d1997")
+	)
+	(no_connect
+		(at 194.31 139.7)
+		(uuid "6ae2ee37-950d-4bbf-a656-1df5a5683b70")
+	)
+	(no_connect
+		(at 184.15 139.7)
+		(uuid "74cc2ff3-b54f-4d41-9202-dd3f57c87949")
+	)
+	(no_connect
+		(at 209.55 38.1)
+		(uuid "7e6be6da-af75-4914-927f-4dfa109fed76")
+	)
+	(no_connect
+		(at 201.93 139.7)
+		(uuid "83323d59-ed50-476c-a38f-229ddda58f89")
+	)
+	(no_connect
+		(at 224.79 38.1)
+		(uuid "867cca87-9352-43f8-814f-68d9e7f892f3")
+	)
+	(no_connect
+		(at 204.47 139.7)
+		(uuid "86d6b184-7fba-4924-ac3f-166c04ee7a94")
+	)
+	(no_connect
 		(at 97.79 92.71)
 		(uuid "89a589ec-f120-40f5-851c-f8f77b5a45c3")
 	)
 	(no_connect
+		(at 222.25 139.7)
+		(uuid "9515d10f-94ae-48a7-aa9a-a9c803cab463")
+	)
+	(no_connect
+		(at 171.45 76.2)
+		(uuid "9a1fcd6a-75b5-4acb-87a1-5c6101a1fe5f")
+	)
+	(no_connect
+		(at 207.01 139.7)
+		(uuid "9f281cae-51a9-4ee0-8f74-103980cd2e07")
+	)
+	(no_connect
+		(at 212.09 38.1)
+		(uuid "a2995fd2-7909-4d39-8cff-95175175a453")
+	)
+	(no_connect
+		(at 227.33 139.7)
+		(uuid "a5366b71-2f80-4c38-b182-cb6e5a796114")
+	)
+	(no_connect
+		(at 247.65 114.3)
+		(uuid "a9bf8d90-1797-4b11-a295-1fbe54c9c345")
+	)
+	(no_connect
+		(at 214.63 38.1)
+		(uuid "b49b23e1-aeb3-42db-82ea-e1a54f9be346")
+	)
+	(no_connect
 		(at 64.77 31.75)
 		(uuid "b6931dba-ae0f-418e-9143-bf45489920c8")
+	)
+	(no_connect
+		(at 237.49 139.7)
+		(uuid "bfb5ce99-2070-4c44-8d17-1d1e9122e24f")
+	)
+	(no_connect
+		(at 232.41 139.7)
+		(uuid "bfd166f7-f284-467a-8418-be75313cad0f")
+	)
+	(no_connect
+		(at 214.63 139.7)
+		(uuid "c1d61a20-0649-450d-930e-09c44ba9b1f0")
+	)
+	(no_connect
+		(at 234.95 38.1)
+		(uuid "ceb60640-82cd-47de-9f0b-c5e385ccf493")
+	)
+	(no_connect
+		(at 219.71 38.1)
+		(uuid "cefa9069-12fe-4028-ab5b-adfd7ad29a2a")
+	)
+	(no_connect
+		(at 247.65 119.38)
+		(uuid "cf538198-885b-4e88-84c6-51809051c603")
+	)
+	(no_connect
+		(at 171.45 73.66)
+		(uuid "d1dd4349-3d79-4735-8a99-5e119a1bee54")
+	)
+	(no_connect
+		(at 171.45 78.74)
+		(uuid "d24249fd-1050-425d-a2df-c0a332ee9195")
+	)
+	(no_connect
+		(at 171.45 86.36)
+		(uuid "de9aa51d-8757-4e53-8703-56314badf587")
+	)
+	(no_connect
+		(at 247.65 104.14)
+		(uuid "e28c0f55-de82-4729-85cd-30d98ee98f0e")
+	)
+	(no_connect
+		(at 247.65 58.42)
+		(uuid "e357972e-0dce-4936-8064-8e6c61626cc7")
+	)
+	(no_connect
+		(at 217.17 139.7)
+		(uuid "ea3bb06b-bcdd-46dc-bdf9-a418c520cb46")
+	)
+	(no_connect
+		(at 189.23 139.7)
+		(uuid "ee4b6db9-ab12-4d1f-817e-b2c63311ea8e")
+	)
+	(no_connect
+		(at 247.65 101.6)
+		(uuid "fadea981-dfb7-4190-bd48-3bac155d2fe2")
+	)
+	(no_connect
+		(at 247.65 116.84)
+		(uuid "fca64776-3510-4c3c-a89d-948fbf054daf")
 	)
 	(wire
 		(pts
@@ -5167,7 +5381,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 127 43.18)
+			(xy 124.46 31.75) (xy 127 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5184,6 +5398,16 @@
 			(type dash)
 		)
 		(uuid "0331b690-8d4f-499d-abb0-eeaad3b2978b")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d414f9-b7fd-4c81-97cc-fa5a4568f6cd")
 	)
 	(wire
 		(pts
@@ -5204,6 +5428,26 @@
 			(type default)
 		)
 		(uuid "050f0a8c-a68f-47d0-b898-835fbccf46c5")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053c1df4-972b-40b7-b686-ddd820cbcb00")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05843999-04cc-41bf-ad7a-bd5bade626d8")
 	)
 	(wire
 		(pts
@@ -5437,6 +5681,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 21.59) (xy 99.06 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2af2ff-b487-4b1e-91d3-dc7c5dee762b")
+	)
+	(wire
+		(pts
 			(xy 247.65 88.9) (xy 250.19 88.9)
 		)
 		(stroke
@@ -5454,16 +5708,6 @@
 			(type default)
 		)
 		(uuid "204ceec7-20ef-4201-9987-e98db6f86158")
-	)
-	(wire
-		(pts
-			(xy 90.17 35.56) (xy 91.44 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b840e3-93b6-45a9-9dfb-4a2ca7ac19a9")
 	)
 	(wire
 		(pts
@@ -5497,7 +5741,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 101.6 48.26)
+			(xy 99.06 36.83) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5791,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 101.6 45.72)
+			(xy 99.06 34.29) (xy 101.6 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5607,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 90.17 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3206e526-cf4c-4074-8c9d-72d4dd49fd99")
-	)
-	(wire
-		(pts
 			(xy 31.75 180.34) (xy 31.75 186.69)
 		)
 		(stroke
@@ -5637,7 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 127 45.72)
+			(xy 124.46 34.29) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5747,17 +5981,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 50.8) (xy 90.17 50.8)
+			(xy 99.06 31.75) (xy 99.06 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c2feba4-948c-4d64-8c8c-5a305b550a57")
+		(uuid "3ccb9ef5-14c7-4a2a-8d84-c96df1de816c")
 	)
 	(wire
 		(pts
-			(xy 124.46 38.1) (xy 127 38.1)
+			(xy 124.46 26.67) (xy 127 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5857,13 +6091,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 90.17 35.56)
+			(xy 121.92 58.42) (xy 121.92 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "439ab2e8-f5ca-4ab6-a775-d746d891805e")
+		(uuid "443101ce-1aee-4877-b637-c6545f32e27f")
 	)
 	(wire
 		(pts
@@ -5887,7 +6121,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 33.02) (xy 101.6 33.02)
+			(xy 99.06 21.59) (xy 101.6 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5987,6 +6221,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 58.42) (xy 132.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51306ddc-c145-44c5-a057-9b6e024a94d6")
+	)
+	(wire
+		(pts
 			(xy 114.3 180.34) (xy 116.84 180.34)
 		)
 		(stroke
@@ -6004,16 +6248,6 @@
 			(type default)
 		)
 		(uuid "52c5de85-7eb1-48bf-bcd6-171a259fcbc9")
-	)
-	(wire
-		(pts
-			(xy 90.17 40.64) (xy 90.17 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53c0336a-7408-46c6-8a68-97097f4b5f44")
 	)
 	(wire
 		(pts
@@ -6047,6 +6281,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 36.83) (xy 99.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5843b5b4-8e13-49fe-975d-e5802e78bccc")
+	)
+	(wire
+		(pts
 			(xy 179.07 156.21) (xy 173.99 156.21)
 		)
 		(stroke
@@ -6057,7 +6301,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 127 33.02)
+			(xy 124.46 21.59) (xy 127 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6144,16 +6388,6 @@
 			(type default)
 		)
 		(uuid "60552ab9-7d2a-4156-89f1-6e661f0bc6a2")
-	)
-	(wire
-		(pts
-			(xy 90.17 35.56) (xy 90.17 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d834f9-555d-40ff-af3c-d97b422c4243")
 	)
 	(wire
 		(pts
@@ -6247,16 +6481,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 90.17 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1f94e8-5a17-41c5-8c01-cc58b5365810")
-	)
-	(wire
-		(pts
 			(xy 199.39 35.56) (xy 199.39 38.1)
 		)
 		(stroke
@@ -6287,6 +6511,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 58.42) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7276b546-f025-4b04-af5b-6ef80e637219")
+	)
+	(wire
+		(pts
 			(xy 262.89 63.5) (xy 267.97 63.5)
 		)
 		(stroke
@@ -6304,6 +6538,16 @@
 			(type default)
 		)
 		(uuid "730cc18e-9d68-4c3c-9cec-3f92056522a7")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b447f3-1da5-40b6-8700-35f35dd7ca51")
 	)
 	(wire
 		(pts
@@ -6397,13 +6641,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 91.44 38.1)
+			(xy 129.54 58.42) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83b6851b-8427-4101-a11f-4a23d11d37d7")
+		(uuid "83c06df2-fcba-44ec-a6ba-4e49972d3251")
 	)
 	(wire
 		(pts
@@ -6417,7 +6661,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 40.64) (xy 101.6 40.64)
+			(xy 99.06 29.21) (xy 101.6 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6437,7 +6681,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 35.56) (xy 127 35.56)
+			(xy 124.46 24.13) (xy 127 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6484,16 +6728,6 @@
 			(type default)
 		)
 		(uuid "89ca37ad-016d-4c72-8d01-9993f3496a4b")
-	)
-	(wire
-		(pts
-			(xy 90.17 48.26) (xy 91.44 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae99749-09f7-4ff0-9a01-4e442b6d1b77")
 	)
 	(wire
 		(pts
@@ -6627,6 +6861,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 58.42) (xy 116.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d6bd10-da50-4007-8f27-4e2127cb1ede")
+	)
+	(wire
+		(pts
+			(xy 99.06 24.13) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95565ca2-cd74-4f82-a604-19dd7d47205a")
+	)
+	(wire
+		(pts
 			(xy 181.61 156.21) (xy 179.07 156.21)
 		)
 		(stroke
@@ -6667,6 +6921,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 58.42) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2c474-2770-4b65-9075-7744a05f541e")
+	)
+	(wire
+		(pts
 			(xy 179.07 139.7) (xy 179.07 148.59)
 		)
 		(stroke
@@ -6674,6 +6938,16 @@
 			(type default)
 		)
 		(uuid "989e7e20-611d-4876-b0ab-a2cb909eb19a")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3ad4fc-7b09-4c4d-bb90-186e7c2684d1")
 	)
 	(wire
 		(pts
@@ -6737,7 +7011,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 127 50.8)
+			(xy 124.46 39.37) (xy 127 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6777,7 +7051,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 127 48.26)
+			(xy 116.84 59.69) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e1032c-32a7-4d3b-a052-ee2790002521")
+	)
+	(wire
+		(pts
+			(xy 124.46 36.83) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6827,13 +7111,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 45.72) (xy 90.17 43.18)
+			(xy 99.06 29.21) (xy 99.06 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae3b8b3d-60e5-4751-9898-bb464e1b6136")
+		(uuid "b023d050-f636-4aec-add4-3a5b47fcb2ec")
 	)
 	(wire
 		(pts
@@ -6847,16 +7131,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 91.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1fc55f7-5c7a-4a86-8e0b-841ae5b9877e")
-	)
-	(wire
-		(pts
 			(xy 240.03 139.7) (xy 240.03 148.59)
 		)
 		(stroke
@@ -6867,33 +7141,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 40.64) (xy 91.44 40.64)
+			(xy 119.38 58.42) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b41abab7-eec7-4a67-b025-6f17fdedd743")
-	)
-	(wire
-		(pts
-			(xy 90.17 33.02) (xy 91.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b480c5d2-51cb-4bdc-a46e-59f9f7b0a56c")
-	)
-	(wire
-		(pts
-			(xy 90.17 48.26) (xy 90.17 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b655c651-eac4-4728-b0ab-ea9774f6431e")
+		(uuid "b82f783c-f307-48b8-b2fa-168f0b7647ac")
 	)
 	(wire
 		(pts
@@ -7107,7 +7361,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 101.6 50.8)
+			(xy 99.06 39.37) (xy 101.6 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7117,13 +7371,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 40.64) (xy 127 40.64)
+			(xy 124.46 58.42) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c731f6e3-2c2a-441a-8328-8919db99e452")
+	)
+	(wire
+		(pts
+			(xy 124.46 29.21) (xy 127 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9362275-a612-4a8b-89ff-a1d86a039796")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c939578b-4998-477b-b72b-a8ce6565c925")
 	)
 	(wire
 		(pts
@@ -7235,6 +7509,16 @@
 		)
 		(uuid "d0898084-bfb2-4657-85db-f4f2d17d9ebe")
 	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 119.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11b5e3f-2fd1-4f47-8fb9-454c10ee4294")
+	)
 	(polyline
 		(pts
 			(xy 139.7 143.51) (xy 139.7 166.37)
@@ -7314,16 +7598,6 @@
 			(type default)
 		)
 		(uuid "d914b6ae-8bda-4185-8d4f-5e3b581aacb7")
-	)
-	(wire
-		(pts
-			(xy 90.17 45.72) (xy 91.44 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d5bcbb-6eff-4619-9ace-51d25eddb768")
 	)
 	(wire
 		(pts
@@ -7417,7 +7691,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 101.6 38.1)
+			(xy 87.63 21.59) (xy 99.06 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c79dd6-4e46-4d2d-8918-3e03e4d16b92")
+	)
+	(wire
+		(pts
+			(xy 99.06 26.67) (xy 101.6 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7457,7 +7741,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 43.18) (xy 101.6 43.18)
+			(xy 99.06 31.75) (xy 101.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7527,7 +7811,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 35.56) (xy 101.6 35.56)
+			(xy 99.06 34.29) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee612192-88c9-4583-8cea-6d6364a3eab9")
+	)
+	(wire
+		(pts
+			(xy 99.06 24.13) (xy 101.6 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7574,6 +7868,16 @@
 			(type default)
 		)
 		(uuid "f5f1096e-3314-4b3f-890c-adbc10510763")
+	)
+	(wire
+		(pts
+			(xy 99.06 26.67) (xy 99.06 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60728cc-a275-4923-80b8-260580a7a245")
 	)
 	(wire
 		(pts
@@ -7644,16 +7948,6 @@
 			(type default)
 		)
 		(uuid "fa5e964a-8fa1-48da-b229-daff38cd322e")
-	)
-	(wire
-		(pts
-			(xy 90.17 50.8) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fabad3cf-2bf9-4ed6-9ce4-1ea35c45d5ba")
 	)
 	(wire
 		(pts
@@ -7865,7 +8159,7 @@
 	)
 	(global_label "S6"
 		(shape input)
-		(at 127 48.26 0)
+		(at 127 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7875,7 +8169,7 @@
 		)
 		(uuid "0488a91b-6dac-42de-9f1e-d1788f84f13c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 48.26 0)
+			(at 132.4042 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,6 +8226,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 124.46 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d59754c-6402-4b25-ac0f-252e72ab6ffb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 44.1258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8057,6 +8375,30 @@
 			)
 		)
 	)
+	(global_label "S2"
+		(shape input)
+		(at 121.92 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1af0dee3-cb41-476a-90ef-f84eeac6d060")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 44.1258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 148.59 121.92 180)
@@ -8107,7 +8449,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 33.02 180)
+		(at 116.84 59.69 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8117,7 +8459,7 @@
 		)
 		(uuid "22a2ebf1-9521-47fc-9fd4-c50fca08d87a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.0443 33.02 0)
+			(at 116.84 66.5457 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,6 +8492,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 119.38 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2671affe-c823-43ea-a4be-1f2703cea299")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 44.1258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8275,7 +8641,7 @@
 	)
 	(global_label "S4"
 		(shape input)
-		(at 127 43.18 0)
+		(at 127 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8285,7 +8651,7 @@
 		)
 		(uuid "3988b249-6aec-4132-9307-1794be2d232f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 43.18 0)
+			(at 132.4042 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,9 +9000,33 @@
 			)
 		)
 	)
+	(global_label "S0"
+		(shape input)
+		(at 116.84 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fc8c2e0-2e42-41e6-a5dd-9c6c5a3571cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 44.1258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "S5"
 		(shape input)
-		(at 127 45.72 0)
+		(at 127 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8646,7 +9036,7 @@
 		)
 		(uuid "536ce335-78b3-4842-bf3b-e61615304aae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 45.72 0)
+			(at 132.4042 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8744,6 +9134,30 @@
 		(uuid "5646141e-2b93-44b1-a971-b37419330f63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.41 28.7043 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "S6"
+		(shape input)
+		(at 132.08 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "593e17d1-d3d2-4df2-a43b-da5416d7854f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 44.1258 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,7 +9340,7 @@
 	)
 	(global_label "S2"
 		(shape input)
-		(at 127 38.1 0)
+		(at 127 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8936,7 +9350,7 @@
 		)
 		(uuid "68689f77-bc8c-40df-b49c-03ea153a26bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 38.1 0)
+			(at 132.4042 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,6 +10302,54 @@
 			)
 		)
 	)
+	(global_label "S5"
+		(shape input)
+		(at 129.54 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af2c61b6-f1c8-468f-b344-40cf9e997ae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 44.1258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 87.63 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0b43b89-bc99-42e0-9058-67a70e40a049")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.5324 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "D5"
 		(shape input)
 		(at 53.34 172.72 0)
@@ -10192,6 +10654,30 @@
 		(uuid "c412e201-fc3e-4b68-bfb3-c5080072d923")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.8038 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "S4"
+		(shape input)
+		(at 127 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c75b0ac5-cddc-4b51-82b3-85d1d006cbf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 44.1258 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10516,9 +11002,33 @@
 			)
 		)
 	)
+	(global_label "S7"
+		(shape input)
+		(at 134.62 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4066fc5-047d-4560-8783-bbd8eaf46ec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 44.1258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "S3"
 		(shape input)
-		(at 127 40.64 0)
+		(at 127 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10528,7 +11038,7 @@
 		)
 		(uuid "e52ac081-8dc8-4806-8299-82bafe24b18c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 40.64 0)
+			(at 132.4042 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,7 +11196,7 @@
 	)
 	(global_label "S1"
 		(shape input)
-		(at 127 35.56 0)
+		(at 127 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10696,7 +11206,7 @@
 		)
 		(uuid "eb95ffa8-9388-48a7-9f7d-5c3e43ea8ff4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 35.56 0)
+			(at 132.4042 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +11292,7 @@
 	)
 	(global_label "S7"
 		(shape input)
-		(at 127 50.8 0)
+		(at 127 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10792,7 +11302,7 @@
 		)
 		(uuid "eef9d63d-fe3c-44e5-9caf-fced4a5d8720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 50.8 0)
+			(at 132.4042 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10878,7 +11388,7 @@
 	)
 	(global_label "S0"
 		(shape input)
-		(at 127 33.02 0)
+		(at 127 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10888,7 +11398,7 @@
 		)
 		(uuid "fc8086df-b562-4d72-9853-c9006bc2ab3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.4042 33.02 0)
+			(at 132.4042 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,6 +12524,107 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 119.38 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "253f75db-eeff-42dd-a937-6171aaaa52a2")
+		(property "Reference" "R2"
+			(at 119.38 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 119.38 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 117.602 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 119.38 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 119.38 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52eb158f-1661-4021-b3f6-47839d177fce")
+		)
+		(pin "2"
+			(uuid "e07fa02c-fc26-4d08-9946-1053a9a1ee7b")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 29.21 86.36 270)
 		(unit 1)
 		(body_style 1)
@@ -12216,7 +12827,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 45.72 270)
+		(at 121.92 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12224,9 +12835,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "300cd3dc-bdf4-44fe-a8b4-ed0c06b088a0")
-		(property "Reference" "R6"
-			(at 93.726 45.72 90)
+		(uuid "307e0e13-27e2-451b-8a05-0a80f6bb0939")
+		(property "Reference" "R3"
+			(at 121.92 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12236,7 +12847,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 96.52 45.72 90)
+			(at 121.92 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12246,7 +12857,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 43.942 90)
+			(at 120.142 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12257,7 +12868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 45.72 0)
+			(at 121.92 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12268,7 +12879,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 45.72 0)
+			(at 121.92 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12279,7 +12890,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 45.72 90)
+			(at 121.92 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +12901,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 45.72 90)
+			(at 121.92 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,15 +12912,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a8824d8-4d13-471d-aba8-fd9913433cf2")
+			(uuid "35b23ddf-7995-4b73-af13-9ebb147aa08f")
 		)
 		(pin "2"
-			(uuid "e57eebac-4114-4f62-9e0d-9d50de6da3d1")
+			(uuid "c5949c92-62b2-4368-a15f-ba4216a0a94f")
 		)
 		(instances
 			(project "ADC"
 				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13177,6 +13788,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 134.62 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f4cadc9-8f38-42dd-ac69-75390fc75820")
+		(property "Reference" "R8"
+			(at 134.62 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 134.62 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 132.842 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 134.62 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 134.62 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bee59671-5c49-4c6e-b457-0c119d78c21d")
+		)
+		(pin "2"
+			(uuid "27e87093-88fb-4fb3-aa36-ebc0ab4cee6d")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 162.56 191.77 0)
 		(unit 1)
@@ -13563,107 +14275,6 @@
 			(project "ADC"
 				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 33.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a99d101-75ef-48ac-ad29-469349b7f0af")
-		(property "Reference" "R1"
-			(at 93.726 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 31.242 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7ec1121-7c40-4dcb-aa11-5ef28ef21992")
-		)
-		(pin "2"
-			(uuid "156334d0-a881-4cd2-8aee-67a95c14063e")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14290,208 +14901,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69126b03-96ba-4e54-8218-7d5d87478882")
-		(property "Reference" "R5"
-			(at 93.726 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 41.402 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37d4a605-d9c5-4838-aafd-2075a0e446fb")
-		)
-		(pin "2"
-			(uuid "75866322-04af-4dbc-a3d6-d44d27caa5dd")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bc377b9-3b41-4b19-a62d-b90e664261e3")
-		(property "Reference" "R4"
-			(at 93.726 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 38.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa78c351-e5f5-48f4-a061-3c496febb18c")
-		)
-		(pin "2"
-			(uuid "5e48161f-9631-4987-9a8d-2e34dfdcae5e")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 36.83 190.5 270)
 		(unit 1)
 		(body_style 1)
@@ -14698,6 +15107,107 @@
 			(project "ADC"
 				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f5da806-c82f-4ed4-9ef2-94d5f0a9b1e2")
+		(property "Reference" "R7"
+			(at 132.08 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 130.302 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 132.08 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 132.08 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a8e1576-0002-4298-81d7-44b529d85e69")
+		)
+		(pin "2"
+			(uuid "35c575e9-a89a-4cf4-bc3c-6a6da577389b")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15346,107 +15856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 95.25 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8647c3b3-35fe-4947-bab6-bc99a0123dac")
-		(property "Reference" "R8"
-			(at 93.726 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 49.022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5b1078b-704f-4630-9369-084a82aee925")
-		)
-		(pin "2"
-			(uuid "20e87c0e-3bfc-4f04-b2ef-913d91d47900")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 118.11 0)
 		(unit 1)
@@ -15859,107 +16268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 95.25 38.1 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c1d5504-544c-4ad7-a653-8f587056ae94")
-		(property "Reference" "R3"
-			(at 93.726 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 36.322 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ddb813b-9a8e-4b91-93d6-7fc1fc2e37ce")
-		)
-		(pin "2"
-			(uuid "a74fee87-0997-4d21-98c2-71bd62c7b0c3")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 229.87 20.32 0)
 		(unit 1)
@@ -16288,7 +16596,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 35.56 270)
+		(at 116.84 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16296,9 +16604,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aac0c382-34de-41aa-b237-aa4c99d145c0")
-		(property "Reference" "R2"
-			(at 93.726 35.56 90)
+		(uuid "b120571c-9af9-4b4a-816e-33c23c708f86")
+		(property "Reference" "R1"
+			(at 116.84 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16308,7 +16616,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 96.52 35.56 90)
+			(at 116.84 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16318,7 +16626,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 33.782 90)
+			(at 115.062 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16329,7 +16637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 35.56 0)
+			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16340,7 +16648,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 35.56 0)
+			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16351,7 +16659,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 35.56 90)
+			(at 116.84 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16362,7 +16670,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 35.56 90)
+			(at 116.84 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16373,15 +16681,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "62026e46-c276-48e7-b09c-f2868f685f87")
+			(uuid "c501499b-b9b9-4630-ac3e-3f6d184cab3c")
 		)
 		(pin "2"
-			(uuid "2b04ef6a-a698-453d-bceb-4704f92f2cb6")
+			(uuid "5c105fe6-1bdd-4fda-ba78-ea4215a45954")
 		)
 		(instances
 			(project "ADC"
 				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -16969,6 +17277,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 129.54 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfbb90a3-ed3b-4772-88e8-1754dd5ac234")
+		(property "Reference" "R6"
+			(at 129.54 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 129.54 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.762 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 129.54 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 129.54 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13c4dc22-351f-4cee-b784-d06e50c7392f")
+		)
+		(pin "2"
+			(uuid "3dbda1d2-1160-40ab-97d3-dfd4523783b3")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 198.12 20.32 0)
 		(unit 1)
@@ -17073,7 +17482,7 @@
 	)
 	(symbol
 		(lib_id "ADC Project Symbols:219-8MST")
-		(at 101.6 33.02 0)
+		(at 101.6 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17084,7 +17493,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5c971ff-0938-4483-bcf7-b02913767779")
 		(property "Reference" "S1"
-			(at 113.03 25.4 0)
+			(at 113.03 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17094,7 +17503,7 @@
 			)
 		)
 		(property "Value" "219-8MST"
-			(at 113.03 27.94 0)
+			(at 113.03 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17104,7 +17513,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile"
-			(at 120.65 127.94 0)
+			(at 120.65 116.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17116,7 +17525,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/219.pdf"
-			(at 120.65 227.94 0)
+			(at 120.65 216.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17128,7 +17537,7 @@
 			)
 		)
 		(property "Description" "DIP Switches / SIP Switches SPST 8 switch sections"
-			(at 101.6 33.02 0)
+			(at 101.6 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17139,7 +17548,7 @@
 			)
 		)
 		(property "Height" "4.5"
-			(at 120.65 427.94 0)
+			(at 120.65 416.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,7 +17560,7 @@
 			)
 		)
 		(property "Mouser Part Number" "774-2198MST"
-			(at 120.65 527.94 0)
+			(at 120.65 516.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17163,7 +17572,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/219-8MST?qs=qNzHFtQhdJ%252B8jOs%2FDCRqeg%3D%3D"
-			(at 120.65 627.94 0)
+			(at 120.65 616.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17175,7 +17584,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "CTS"
-			(at 120.65 727.94 0)
+			(at 120.65 716.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17187,7 +17596,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "219-8MST"
-			(at 120.65 827.94 0)
+			(at 120.65 816.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17677,6 +18086,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 124.46 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbc113b5-6d21-45c5-ad4c-84d5a30acf86")
+		(property "Reference" "R4"
+			(at 124.46 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 124.46 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 122.682 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 124.46 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 124.46 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "320caac7-692f-4c18-b98a-f85d778439cc")
+		)
+		(pin "2"
+			(uuid "31479fbd-5697-4811-b9b4-89a03dc1918a")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 46.99 153.67 0)
 		(unit 1)
@@ -17993,107 +18503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 95.25 48.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e540160d-e893-4f37-82da-4108774f6987")
-		(property "Reference" "R7"
-			(at 93.726 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 96.52 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 46.482 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 95.25 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 95.25 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3ae7d9a-0098-443e-a563-4127f5317774")
-		)
-		(pin "2"
-			(uuid "be15da3d-0eb4-4eeb-802f-4743d0e3ba20")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 46.99 157.48 0)
 		(unit 1)
@@ -18200,6 +18609,107 @@
 			(project "ADC"
 				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea2f120c-acdc-40e7-9751-5bad1d1ceabb")
+		(property "Reference" "R5"
+			(at 127 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 127 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.222 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 127 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 127 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a2a0e46-8780-4345-975c-d90bf96f8b53")
+		)
+		(pin "2"
+			(uuid "54f8157c-c3e9-4e1c-8fbd-edbabf68d15d")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R5")
 					(unit 1)
 				)
 			)
