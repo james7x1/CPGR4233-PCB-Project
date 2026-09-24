@@ -1,0 +1,8 @@
+---- MParTrce Tool Log File ----
+iteration 5_1
+
+par -f ADC_impl1.p2t.tmp0 ADC_impl1_map.ncd ADC_impl1.dir\5_1.dir ADC_impl1.prf -gui -msgset "C:/Users/sj729/Documents/LeTourneau University/Senior Year/MCD (TA)/ADC FPGA/VHDL/promote.xml"  
+Copy 5_1.ncd to ADC_impl1.ncd
+
+
+

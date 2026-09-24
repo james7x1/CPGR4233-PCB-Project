@@ -1,0 +1,24 @@
+Results of NGD DRC are available in main_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.14/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.14/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.14/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.14/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'ADC_RDY' has no load.
+WARNING - synthesis: input pad net 'ADC_RDY' has no legal load.
+WARNING - synthesis: logical net 'MODE3' has no load.
+WARNING - synthesis: input pad net 'MODE3' has no legal load.
+WARNING - synthesis: logical net 'SPEED2' has no load.
+WARNING - synthesis: input pad net 'SPEED2' has no legal load.
+WARNING - synthesis: logical net 'SPEED3' has no load.
+WARNING - synthesis: input pad net 'SPEED3' has no legal load.
+WARNING - synthesis: DRC complete with 8 warnings.
+
+Design Results:
+    145 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file ADC_impl1.ngd.

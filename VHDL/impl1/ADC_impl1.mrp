@@ -1,0 +1,270 @@
+
+             Lattice Mapping Report File for Design Module 'main'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO3LF -p LCMXO3LF-1300C -t TQFP100 -s 5 -oc
+     Commercial ADC_impl1.ngd -o ADC_impl1_map.ncd -pr ADC_impl1.prf -mp
+     ADC_impl1.mrp -lpf C:/Users/sj729/Documents/LeTourneau University/Senior
+     Year/MCD (TA)/ADC FPGA/VHDL/impl1/ADC_impl1.lpf -lpf
+     C:/Users/sj729/Documents/LeTourneau University/Senior Year/MCD (TA)/ADC
+     FPGA/VHDL/ADC.lpf -c 0 -gui -msgset C:/Users/sj729/Documents/LeTourneau
+     University/Senior Year/MCD (TA)/ADC FPGA/VHDL/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO3LF-1300CTQFP100
+Target Performance:   5
+Mapper:  xo3c00f,  version:  Diamond (64-bit) 3.14.0.75.2
+Mapped on:  04/01/26  11:21:48
+
+Design Summary
+--------------
+
+   Number of registers:     50 out of  1520 (3%)
+      PFU registers:           50 out of  1280 (4%)
+      PIO registers:            0 out of   240 (0%)
+   Number of SLICEs:        41 out of   640 (6%)
+      SLICEs as Logic/ROM:     41 out of   640 (6%)
+      SLICEs as RAM:            0 out of   480 (0%)
+      SLICEs as Carry:         18 out of   640 (3%)
+   Number of LUT4s:         78 out of  1280 (6%)
+      Number used as logic LUTs:         42
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       36
+      Number used as shift registers:     0
+   Number of PIO sites used: 26 + 4(JTAG) out of 80 (38%)
+   Number of block RAMs:  0 out of 7 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 1 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  4
+     Net RST_c: 1 loads, 1 rising, 0 falling (Driver: PIO RST )
+
+                                    Page 1
+
+
+
+
+Design:  main                                          Date:  04/01/26  11:21:48
+
+Design Summary (cont)
+---------------------
+     Net CLK_c: 22 loads, 22 rising, 0 falling (Driver: PIO CLK )
+     Net DSP_CLK: 9 loads, 9 rising, 0 falling (Driver: DSP_CLK_303 )
+     Net ADC_CLK: 1 loads, 1 rising, 0 falling (Driver: ADC_CLK_301 )
+   Number of Clock Enables:  5
+     Net pauseFlag: 13 loads, 13 LSLICEs
+     Net DSP_CLK_enable_1: 1 loads, 1 LSLICEs
+     Net DSP_CLK_enable_6: 5 loads, 5 LSLICEs
+     Net state_2: 1 loads, 1 LSLICEs
+     Net DSP_CLK_enable_8: 2 loads, 2 LSLICEs
+   Number of LSRs:  1
+     Net MODE0_c: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net state_0: 16 loads
+     Net pauseFlag: 14 loads
+     Net LED3_N_175: 13 loads
+     Net state_2: 13 loads
+     Net ADC6_c: 11 loads
+     Net state_1: 10 loads
+     Net ADC5_c: 9 loads
+     Net DSP_CLK_enable_6: 5 loads
+     Net LED7_N_221: 4 loads
+     Net n6: 4 loads
+
+
+
+
+   Number of warnings:  8
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: input pad net 'ADC_RDY' has no legal load.
+WARNING - map: input pad net 'MODE3' has no legal load.
+WARNING - map: input pad net 'SPEED2' has no legal load.
+WARNING - map: input pad net 'SPEED3' has no legal load.
+WARNING - map: IO buffer missing for top level port ADC_RDY...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port MODE3...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port SPEED2...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port SPEED3...logic will be
+     discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| LED0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  main                                          Date:  04/01/26  11:21:48
+
+IO (PIO) Attributes (cont)
+--------------------------
+| ADC_RD              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC_CS              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED1                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED2                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED3                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED4                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED5                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED6                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED7                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLK                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC_INT             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| RST                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC0                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC1                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC2                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC3                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC4                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC5                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC6                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ADC7                | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MODE0               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MODE1               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MODE2               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SPEED0              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SPEED1              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block i2 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+Design:  main                                          Date:  04/01/26  11:21:48
+
+Removed logic (cont)
+--------------------
+Signal n739 was merged into signal MODE0_c
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal timer62500_389_391_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal timer62500_389_391_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal timer62500_389_391_add_4_9/CO undriven or does not drive anything -
+     clipped.
+Signal timer7800_390_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal timer7800_390_add_4_1/CI undriven or does not drive anything - clipped.
+Signal timer7800_390_add_4_25/CO undriven or does not drive anything - clipped.
+Block i560_1_lut was optimized away.
+Block i1 was optimized away.
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 43 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 4
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights
+     reserved.

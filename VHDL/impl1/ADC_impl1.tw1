@@ -1,0 +1,277 @@
+
+Loading design for application trce from file adc_impl1_map.ncd.
+Design name: main
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3LF-1300C
+Package:     TQFP100
+Performance: 5
+Loading device for application trce from file 'xo3c1300.nph' in environment: C:/lscc/diamond/3.14/ispfpga.
+Package Status:                     Preliminary    Version 1.17.
+Performance Hardware Data Status:   Final          Version 37.5.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.14.0.75.2
+Wed Apr 01 11:21:51 2026
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o ADC_impl1.tw1 -gui -msgset C:/Users/sj729/Documents/LeTourneau University/Senior Year/MCD (TA)/ADC FPGA/VHDL/promote.xml ADC_impl1_map.ncd ADC_impl1.prf 
+Design file:     adc_impl1_map.ncd
+Preference file: adc_impl1.prf
+Device,speed:    LCMXO3LF-1300C,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK" 32.000000 MHz ;
+            450 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 24.590ns
+         The internal maximum frequency of the following component is 150.150 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    PIO        PAD            CLK
+
+   Delay:               6.660ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 27.316ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              timer7800_390__i0  (from CLK_c +)
+   Destination:    FF         Data in        timer7800_390__i24  (to CLK_c +)
+
+   Delay:               3.784ns  (89.1% logic, 10.9% route), 14 logic levels.
+
+ Constraint Details:
+
+      3.784ns physical path delay SLICE_12 to SLICE_2 meets
+     31.250ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 31.100ns) by 27.316ns
+
+ Physical Path Details:
+
+      Data path SLICE_12 to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409   SLICE_12.CLK to    SLICE_12.Q1 SLICE_12 (from CLK_c)
+ROUTE         1   e 0.401    SLICE_12.Q1 to    SLICE_12.A1 n25
+C1TOFCO_DE  ---     0.786    SLICE_12.A1 to   SLICE_12.FCO SLICE_12
+ROUTE         1   e 0.001   SLICE_12.FCO to   SLICE_11.FCI n1044
+FCITOFCO_D  ---     0.146   SLICE_11.FCI to   SLICE_11.FCO SLICE_11
+ROUTE         1   e 0.001   SLICE_11.FCO to   SLICE_10.FCI n1045
+FCITOFCO_D  ---     0.146   SLICE_10.FCI to   SLICE_10.FCO SLICE_10
+ROUTE         1   e 0.001   SLICE_10.FCO to    SLICE_9.FCI n1046
+FCITOFCO_D  ---     0.146    SLICE_9.FCI to    SLICE_9.FCO SLICE_9
+ROUTE         1   e 0.001    SLICE_9.FCO to    SLICE_8.FCI n1047
+FCITOFCO_D  ---     0.146    SLICE_8.FCI to    SLICE_8.FCO SLICE_8
+ROUTE         1   e 0.001    SLICE_8.FCO to    SLICE_7.FCI n1048
+FCITOFCO_D  ---     0.146    SLICE_7.FCI to    SLICE_7.FCO SLICE_7
+ROUTE         1   e 0.001    SLICE_7.FCO to    SLICE_6.FCI n1049
+FCITOFCO_D  ---     0.146    SLICE_6.FCI to    SLICE_6.FCO SLICE_6
+ROUTE         1   e 0.001    SLICE_6.FCO to    SLICE_5.FCI n1050
+FCITOFCO_D  ---     0.146    SLICE_5.FCI to    SLICE_5.FCO SLICE_5
+ROUTE         1   e 0.001    SLICE_5.FCO to    SLICE_4.FCI n1051
+FCITOFCO_D  ---     0.146    SLICE_4.FCI to    SLICE_4.FCO SLICE_4
+ROUTE         1   e 0.001    SLICE_4.FCO to    SLICE_1.FCI n1052
+FCITOFCO_D  ---     0.146    SLICE_1.FCI to    SLICE_1.FCO SLICE_1
+ROUTE         1   e 0.001    SLICE_1.FCO to    SLICE_0.FCI n1053
+FCITOFCO_D  ---     0.146    SLICE_0.FCI to    SLICE_0.FCO SLICE_0
+ROUTE         1   e 0.001    SLICE_0.FCO to    SLICE_3.FCI n1054
+FCITOFCO_D  ---     0.146    SLICE_3.FCI to    SLICE_3.FCO SLICE_3
+ROUTE         1   e 0.001    SLICE_3.FCO to    SLICE_2.FCI n1055
+FCITOF1_DE  ---     0.569    SLICE_2.FCI to     SLICE_2.F1 SLICE_2
+ROUTE         1   e 0.001     SLICE_2.F1 to    SLICE_2.DI1 n106 (to CLK_c)
+                  --------
+                    3.784   (89.1% logic, 10.9% route), 14 logic levels.
+
+Report:  150.150MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK" 32.000000 MHz ;    |   32.000 MHz|  150.150 MHz|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 4 clocks:
+
+Clock Domain: RST_c   Source: RST.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: DSP_CLK   Source: SLICE_20.Q0   Loads: 9
+   Covered under: FREQUENCY PORT "CLK" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: CLK_c   Source: CLK.PAD
+      Covered under: FREQUENCY PORT "CLK" 32.000000 MHz ;   Transfers: 3
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 22
+   Covered under: FREQUENCY PORT "CLK" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: RST_c   Source: RST.PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+Clock Domain: ADC_CLK   Source: SLICE_40.Q0   Loads: 1
+   No transfer within this clock domain is found
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 450 paths, 3 nets, and 197 connections (66.78% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.14.0.75.2
+Wed Apr 01 11:21:52 2026
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o ADC_impl1.tw1 -gui -msgset C:/Users/sj729/Documents/LeTourneau University/Senior Year/MCD (TA)/ADC FPGA/VHDL/promote.xml ADC_impl1_map.ncd ADC_impl1.prf 
+Design file:     adc_impl1_map.ncd
+Preference file: adc_impl1.prf
+Device,speed:    LCMXO3LF-1300C,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK" 32.000000 MHz ;
+            450 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              timer7800_390__i19  (from CLK_c +)
+   Destination:    FF         Data in        timer7800_390__i19  (to CLK_c +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_0 to SLICE_0 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_0 to SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_0.CLK to     SLICE_0.Q0 SLICE_0 (from CLK_c)
+ROUTE         1   e 0.199     SLICE_0.Q0 to     SLICE_0.A0 n6_adj_4
+CTOF_DEL    ---     0.101     SLICE_0.A0 to     SLICE_0.F0 SLICE_0
+ROUTE         1   e 0.001     SLICE_0.F0 to    SLICE_0.DI0 n111 (to CLK_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK" 32.000000 MHz ;    |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 4 clocks:
+
+Clock Domain: RST_c   Source: RST.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: DSP_CLK   Source: SLICE_20.Q0   Loads: 9
+   Covered under: FREQUENCY PORT "CLK" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: CLK_c   Source: CLK.PAD
+      Covered under: FREQUENCY PORT "CLK" 32.000000 MHz ;   Transfers: 3
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 22
+   Covered under: FREQUENCY PORT "CLK" 32.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: RST_c   Source: RST.PAD
+      Not reported because source and destination domains are unrelated.
+      To report these transfers please refer to preference CLKSKEWDIFF to define
+      external clock skew between clock ports.
+
+Clock Domain: ADC_CLK   Source: SLICE_40.Q0   Loads: 1
+   No transfer within this clock domain is found
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 450 paths, 3 nets, and 197 connections (66.78% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
