@@ -254,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "5"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -576,7 +576,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ADC.net",
-      "plot": "",
+      "plot": "Fabrication/V5/ADCv5-1-Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -591,7 +591,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Fabrication\\V5\\ADC-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
