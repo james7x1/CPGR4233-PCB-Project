@@ -13895,10 +13895,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51a511b1-0d91-4b0d-9f86-19741bd07109")
 		(property "Reference" "TP4"
 			(at 165.1 187.1979 0)
