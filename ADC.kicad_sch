@@ -1381,7 +1381,7 @@
 					)
 				)
 			)
-			(property "Value" "ECS-5032MV-320-BN-TR"
+			(property "Value" ""
 				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1391,7 +1391,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ECS-5032MV-320-BN-TR:OSC_ECS-5032MV-320-BN-TR"
+			(property "Footprint" "Package_DFN_QFN:CDFN-4_3.2x5mm_P2.54mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1415,6 +1415,28 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" "ECS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ECS-5032MV-320-BN-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1455,24 +1477,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 8.89 0 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 8.89 5.08 180)
 					(length 5.08)
@@ -1502,6 +1506,26 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ECS-5032MV-320-BN-TR_1_0"
+				(pin passive line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5086,6 +5110,12 @@
 		(uuid "c840e83d-0a7b-461b-bfb8-392ef78b9bb2")
 	)
 	(junction
+		(at 67.31 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce242965-8f76-4428-b94f-b693ff07fe7d")
+	)
+	(junction
 		(at 179.07 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6867,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 82.55) (xy 69.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95011dc4-2ff0-4304-8a7e-53255dd50158")
+	)
+	(wire
+		(pts
 			(xy 99.06 24.13) (xy 99.06 26.67)
 		)
 		(stroke
@@ -7014,6 +7054,16 @@
 			(type default)
 		)
 		(uuid "a4cf5ee7-a13b-4429-b6b9-93540898fc62")
+	)
+	(wire
+		(pts
+			(xy 67.31 82.55) (xy 67.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6510a20-1f4e-4e03-be39-f7bc48c7f6bb")
 	)
 	(wire
 		(pts
@@ -7167,7 +7217,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 86.36) (xy 25.4 86.36)
+			(xy 27.94 82.55) (xy 35.56 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7587,7 +7637,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 86.36) (xy 68.58 86.36)
+			(xy 66.04 82.55) (xy 67.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7884,16 +7934,6 @@
 			(type default)
 		)
 		(uuid "f62bed7a-be59-43fe-829d-4fbae2be05f9")
-	)
-	(wire
-		(pts
-			(xy 33.02 86.36) (xy 35.56 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f91f96-ca7d-4af1-8ddf-2d93605033b3")
 	)
 	(wire
 		(pts
@@ -8247,6 +8287,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 27.94 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ee72632-46c3-408e-88c4-4c69cfd8898a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.8424 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9792,30 +9856,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 22.86 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91e9b28a-1f7a-405f-ba58-92d54513788a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0043 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "D3"
 		(shape input)
 		(at 181.61 35.56 90)
@@ -9866,7 +9906,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 68.58 86.36 0)
+		(at 69.85 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9876,7 +9916,7 @@
 		)
 		(uuid "93f0195c-5bfa-410d-bb73-297e83f94778")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0123 86.36 0)
+			(at 76.2823 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,6 +10142,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 67.31 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a25d0509-1073-4aa1-8016-fa4694c84f80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 99.5657 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12590,107 +12654,6 @@
 			(project "ADC"
 				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ADC_Library:R")
-		(at 29.21 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "254a1db7-fc88-4b8a-8217-365d77550776")
-		(property "Reference" "R9"
-			(at 27.686 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 30.48 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 29.21 84.582 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 29.21 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
-			(at 29.21 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df59ca87-e1d8-4291-b580-cbfdb618955c")
-		)
-		(pin "2"
-			(uuid "c5d22268-80fa-4de2-8b3c-6474ac356564")
-		)
-		(instances
-			(project "ADC"
-				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -18587,8 +18550,109 @@
 		)
 	)
 	(symbol
+		(lib_id "ADC_Library:R")
+		(at 67.31 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea9dae39-350c-4547-b6bc-04cf32fa5f8a")
+		(property "Reference" "R9"
+			(at 67.31 90.424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 67.31 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 65.532 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 67.31 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-7W10KL"
+			(at 67.31 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97c52197-a2ff-4a4a-bbbb-23aefbb14376")
+		)
+		(pin "2"
+			(uuid "a56abac3-2b29-446d-9434-c25f7f317b80")
+		)
+		(instances
+			(project "ADC"
+				(path "/e7970bbe-713a-4171-baeb-97713fa53b7a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ADC_Library:EVQ-7Q201W")
-		(at 35.56 86.36 0)
+		(at 35.56 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18599,7 +18663,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef43a17c-e3dc-441a-b057-41c8392a1f2e")
 		(property "Reference" "S2"
-			(at 50.8 78.74 0)
+			(at 50.8 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18609,7 +18673,7 @@
 			)
 		)
 		(property "Value" "EVQ-7Q201W"
-			(at 50.8 81.28 0)
+			(at 50.8 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18619,7 +18683,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQQ2"
-			(at 62.23 181.28 0)
+			(at 62.23 177.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18631,7 +18695,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C360.pdf"
-			(at 62.23 281.28 0)
+			(at 62.23 277.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18643,7 +18707,7 @@
 			)
 		)
 		(property "Description" "Tactile Switches 6x6x2mm 0.8N With Grnd Term"
-			(at 35.56 86.36 0)
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18654,7 +18718,7 @@
 			)
 		)
 		(property "Height" "2.2"
-			(at 62.23 481.28 0)
+			(at 62.23 477.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18666,7 +18730,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-EVQ-7Q201W"
-			(at 62.23 581.28 0)
+			(at 62.23 577.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18678,7 +18742,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-7Q201W?qs=PzGy0jfpSMtXep4dt4ZPsQ%3D%3D"
-			(at 62.23 681.28 0)
+			(at 62.23 677.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18690,7 +18754,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 62.23 781.28 0)
+			(at 62.23 777.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18702,7 +18766,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EVQ-7Q201W"
-			(at 62.23 881.28 0)
+			(at 62.23 877.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

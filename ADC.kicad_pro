@@ -576,7 +576,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ADC.net",
-      "plot": "Fabrication/V5/ADCv5-1-Gerber/",
+      "plot": "Fabrication/V5/ADCv5-2-Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -759,7 +759,7 @@
         "uuid": "e7970bbe-713a-4171-baeb-97713fa53b7a"
       }
     ],
-    "used_designators": "R1-8",
+    "used_designators": "R1-9",
     "variants": []
   },
   "sheets": [
