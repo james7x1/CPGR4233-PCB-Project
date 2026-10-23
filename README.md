@@ -3,6 +3,7 @@ Voltmeter PCB design project for LeTourneau University CPGR4233.
 
 Derived from 20+ years of PCB designs created by Intro to Microcomputer Design TAs.
 Recent Contributors:
+
 Rev 5 - Samuel Johnson, Allen Morrison, Joshua Allen (AJ)
 
 Rev 4 - Samuel Johnson
